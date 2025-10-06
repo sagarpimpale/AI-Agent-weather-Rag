@@ -189,38 +189,6 @@ The app will open in your browser at `http://localhost:8501`
 
 ---
 
-## 🧪 Running Tests
-
-Execute the test suite:
-
-```bash
-pytest test_app.py -v
-```
-
-Expected output:
-```
-test_app.py::TestWeatherAPI::test_get_weather_success PASSED
-test_app.py::TestWeatherAPI::test_get_weather_failure PASSED
-test_app.py::TestRouterNode::test_route_to_weather PASSED
-test_app.py::TestRouterNode::test_route_to_pdf_rag PASSED
-test_app.py::TestWeatherNode::test_weather_node_success PASSED
-test_app.py::TestPDFRAGNode::test_pdf_rag_node PASSED
-test_app.py::TestIntegration::test_full_weather_workflow PASSED
-test_app.py::TestEdgeCases::test_empty_query PASSED
-
-==================== 8 passed in 2.34s ====================
-```
-
-### Test Coverage
-
-- ✅ Weather API calls and error handling
-- ✅ Router node decision logic
-- ✅ Weather node processing
-- ✅ PDF RAG node retrieval
-- ✅ End-to-end workflow
-- ✅ Edge cases and error scenarios
-
----
 
 ## 📊 LangSmith Integration
 
@@ -418,10 +386,6 @@ ai-agent-weather-rag/
    - Token usage analysis
    - Performance metrics
    - Error handling examples
-
-4. **Testing** (10:00 - 12:00)
-   - Running test suite
-   - Coverage analysis
 
 ---
 
