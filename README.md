@@ -5,7 +5,7 @@
 **1. "PDF file not found" Error**
 ```bash
 # Solution: Ensure PDF is in project root
-ls LogicLoom_Company_Profile_Healthcare.pdf
+ls path-to-your-pdf-file.pdf
 ```
 
 **2. Ollama Connection Error**
